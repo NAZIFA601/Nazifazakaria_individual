@@ -1,0 +1,280 @@
+﻿*{
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.social-media{
+	padding:5px;
+	background-color: #ffb3b3;	
+}
+
+.social-media ul li{
+	display: inline-block;
+	color: black;
+	margin:10px;
+}
+
+.container{
+	width:80%;
+	margin:0 auto;
+}
+.container: after{
+	content:'';
+	display: block;
+	clear: both;
+}
+
+header ul{
+	float:center;
+}
+
+header ul li{
+	display: inline-block;
+}
+
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+
+header ul li a:hover{
+	background-color: #ffb3b3;
+	color: white;
+
+}
+
+.active{
+	background-color: #ffb3b3;
+	color: white;
+}
+
+.banner{
+	margin: 0px;
+	height: 20vh;
+	background-color: #ffe6e6;
+}
+
+.banner h2{
+	margin: 0px;
+	font-family: arial;
+	text-align: center;
+	font-size: 100px;
+	direction: right;
+}
+
+
+section{
+	padding: 50px 0;
+
+}
+
+h3 img{
+	margin: 20px;
+	width: 30%;
+	height: 80%
+}
+
+h3 p{
+	font-align: center;
+	margin: 20px;
+	font-family: arial;
+}
+
+h3 a{
+	color: blue;
+}
+
+.MYBIODATA{
+	margin: 0px;
+	padding: 50px 50px;
+	height: 20vh;
+	background-color: #F5AFF5;
+	text-align: center;
+	font-size: 100px;
+	direction: right;
+}
+
+.image{ 
+	position: relative;
+	overflow: hidden;
+}
+
+.image.image1{
+	width: 300px;
+	height: 300px;	
+	float: left;
+	border-radius: 50%;
+	margin: 20px;
+	shape-outside: circle();
+}
+
+.image.image2{
+	width: 400px;
+	height: 400px;	
+	float: right;
+	border-radius: 50%;
+	margin: 20px;
+	shape-outside: circle();
+}
+
+.image img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+h5 p{
+	padding: 10px 20px;
+	color: black;
+	line-height: 1.0cm;
+	text-align: justify;
+}
+.reponsive{
+	width: 100%;
+	height: 0;
+}
+
+.responsive iframe{
+	width: 100%;
+	height: 100%;
+}
+
+.Myfamily{
+	margin: 0px;
+	padding: 50px 50px;
+	height: 20vh;
+	background-color: #F5AFF5;
+	text-align: center;
+	font-size: 100px;
+	direction: right;
+}
+
+img{
+	width: 50%;
+	height: 60%;
+}
+
+
+
+p{
+	padding: 20px 25px;
+	color: black;
+	line-height: 1.0cm;
+	font-family: arial;
+	font-size: 20px;
+	text-align: justify;
+
+}
+
+.MyFriends{
+	margin: 0px;
+	padding: 50px 50px;
+	height: 20vh;
+	background-color: #F5AFF5;
+	text-align: center;
+	font-size: 100px;
+	direction: right;
+}
+
+img{
+	width: 50%;
+	height: 60%;
+}
+
+p{
+	padding: 20px 25px;
+	color: black;
+	line-height: 1.0cm;
+	font-family: arial;
+	font-size: 20px;
+	text-align: justify;
+
+
+}
+
+
+.Experience{
+	background-color: #ffb3b3
+}
+
+.table{
+	margin: 40px;
+}
+
+td img{
+	display: block;
+	width: 70%;
+        height: 150px
+    	margin-left: auto;
+    	margin-right: auto;
+}
+
+.icon{
+	display: inline-block;
+	box-sizing: border-box;
+	height: 60px;
+	width: 150px;
+	text-align: center;
+	float: left;
+	margin: 0 5px;
+	border-radius: 100px;
+	background: blue;
+	cursor: pointer;
+	overflow: hidden;
+}
+.icon i{
+	font-size: 40px;
+}
+.icon:hover{
+	width: 200px;
+}
+
+footer{
+	margin: 0;
+	padding: 30px 0;
+	background-color: #333;
+	color: white;
+	text-align: center;
+}
+
+
+.Mygallery{
+	margin: 0px;
+	padding: 50px 50px;
+	height: 20vh;
+	background-color: #F5AFF5;
+	text-align: center;
+	font-size: 100px;
+	direction: right;
+
+
+}
+.grid{
+	margin: 4px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 390px;
+
+}
+
+.grid img{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+.grid embed{
+	width: 100%;
+	height: 358px;
+	object-fit: cover;
+
+}
